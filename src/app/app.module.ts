@@ -6,16 +6,19 @@ import { MyApp } from './app.component';
 import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { ItemDetailsPage } from '../pages/item-details/item-details';
 import { ListPage } from '../pages/list/list';
+import {home_studente} from '../pages/home studente/home_studente';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+
 
 @NgModule({
   declarations: [
     MyApp,
     HelloIonicPage,
     ItemDetailsPage,
-    ListPage
+    ListPage,
+    home_studente
   ],
   imports: [
     BrowserModule,
@@ -26,7 +29,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HelloIonicPage,
     ItemDetailsPage,
-    ListPage
+    ListPage,
+    home_studente
   ],
   providers: [
     StatusBar,
