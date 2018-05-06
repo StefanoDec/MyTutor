@@ -8,6 +8,7 @@ import { ItemDetailsPage } from '../pages/item-details/item-details';
 import { ListPage } from '../pages/list/list';
 import { home_studente } from '../pages/home studente/home_studente';
 import { LoginPage } from '../pages/login/login';
+import { RegistratiPage } from "../pages/registrati/registrati";
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -20,7 +21,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ItemDetailsPage,
     ListPage,
     home_studente,
-    LoginPage
+    LoginPage,
+    RegistratiPage
   ],
   imports: [
     BrowserModule,
@@ -33,7 +35,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ItemDetailsPage,
     ListPage,
     home_studente,
-    LoginPage
+    LoginPage,
+    RegistratiPage
   ],
   providers: [
     StatusBar,
