@@ -12,6 +12,7 @@ import { RegistratiPage } from "../pages/registrati/registrati";
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import {RegistrazioneDocenteModalPage} from "../pages/registrazione-docente-modal/registrazione-docente-modal";
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListPage,
     home_studente,
     LoginPage,
-    RegistratiPage
+    RegistratiPage,
+    RegistrazioneDocenteModalPage
   ],
   imports: [
     BrowserModule,
@@ -36,7 +38,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListPage,
     home_studente,
     LoginPage,
-    RegistratiPage
+    RegistratiPage,
+    RegistrazioneDocenteModalPage
   ],
   providers: [
     StatusBar,
