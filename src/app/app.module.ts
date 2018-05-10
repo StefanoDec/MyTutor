@@ -6,7 +6,7 @@ import { MyApp } from './app.component';
 import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { ItemDetailsPage } from '../pages/item-details/item-details';
 import { ListPage } from '../pages/list/list';
-import { home_studente } from '../pages/home studente/home_studente';
+import { HomeStudentePage } from '../pages/home-studente/home-studente';
 import { LoginPage } from '../pages/login/login';
 import { RegistratiPage } from "../pages/registrati/registrati";
 
@@ -21,7 +21,7 @@ import {RegistrazioneDocenteModalPage} from "../pages/registrazione-docente-moda
     HelloIonicPage,
     ItemDetailsPage,
     ListPage,
-    home_studente,
+    HomeStudentePage,
     LoginPage,
     RegistratiPage,
     RegistrazioneDocenteModalPage
@@ -36,7 +36,7 @@ import {RegistrazioneDocenteModalPage} from "../pages/registrazione-docente-moda
     HelloIonicPage,
     ItemDetailsPage,
     ListPage,
-    home_studente,
+    HomeStudentePage,
     LoginPage,
     RegistratiPage,
     RegistrazioneDocenteModalPage
