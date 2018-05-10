@@ -1,14 +1,18 @@
 home-studente {
     .prezzo-lezione {
-      font-size: 20px;
       margin-left: 10px;
       padding-bottom: 5px;
+      font-size: 20px;
+      color: #32db64;
     }
 
     .coloreblu {
       color: #488aff !important;
-      font-size: 20px;
-      font-weight: 800;
     }
-
+    .bordino {
+      padding-right: 10px;
+      border-style: solid;
+      border-width: 0 1px 0 0;
+      border-color: #d9d9d9 !important;
+    }
 }
