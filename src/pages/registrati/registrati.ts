@@ -14,12 +14,24 @@ import {RegistrazioneDocenteModalPage} from "../registrazione-docente-modal/regi
   templateUrl: 'registrati.html',
 })
 export class RegistratiPage {
+  passwordType: string = 'password';
+  passwordShow: boolean = false;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, private modal: ModalController) {
   }
 
+  public togglePassword(){
+    if(this.passwordShow){
+      this.passwordShow = false;
+      this.passwordType = 'password';
+    } else {
+      this.passwordShow = true;
+      this.passwordType = 'text';
+    }
+  }
+
   notify(event){
-    //console.log(event.checked);
+    console.log(event.checked);
     if (event.checked) {
       const myModal = this.modal.create(RegistrazioneDocenteModalPage);
       myModal.present();
