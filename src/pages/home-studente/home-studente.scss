@@ -15,5 +15,38 @@ home-studente {
       border-width: 0 1px 0 0;
       border-color: #d9d9d9 !important;
     }
+    .col-data-ora{
+      padding-left: 15px;
+      padding-right: 0;
+      padding-bottom: 0;
+      padding-top: 15px;
+      color: #488aff;
+      font-size: 15px
+    }
+    .stile-data{
+      margin-bottom: 5px;
+      padding: 0;
+      color: #488aff;
+      font-size: 15px
+    }
+    .stile-ora{
+      padding: 0;
+      margin-left: 25px;
+      font-size: 18px
+
+    }
+    .correzione-label-card{
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-left: 0;
+      margin-right: 3px
+    }
+    .stile-ion-item{
+      padding-left: 10px;
+      padding-right: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+      margin: 0
+    }
 
 }
