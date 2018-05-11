@@ -11,9 +11,11 @@ import { LoginPage } from '../pages/login/login';
 import { RegistratiPage } from "../pages/registrati/registrati";
 import {RegistrazioneDocenteModalPage} from "../pages/registrazione-docente-modal/registrazione-docente-modal";
 import {InserisciLezionePage} from "../pages/inserisci-lezione/inserisci-lezione";
+import {ImpostaDataeSlotModalPage} from "../pages/imposta-datae-slot-modal/imposta-datae-slot-modal";
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+
 
 
 
@@ -27,7 +29,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     LoginPage,
     RegistratiPage,
     RegistrazioneDocenteModalPage,
-    InserisciLezionePage
+    InserisciLezionePage,
+    ImpostaDataeSlotModalPage
   ],
   imports: [
     BrowserModule,
@@ -43,7 +46,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     LoginPage,
     RegistratiPage,
     RegistrazioneDocenteModalPage,
-    InserisciLezionePage
+    InserisciLezionePage,
+    ImpostaDataeSlotModalPage
   ],
   providers: [
     StatusBar,
