@@ -6,11 +6,11 @@
 -->
 <ion-header>
 
-  <ion-navbar>                                <!-- serve per il navbar -->
-      <button ion-button menuToggle>
-        <ion-icon name="menu"></ion-icon>     <!-- bottone menù in alto a dx -->
-      </button>
-    <ion-title>InserisciLezione</ion-title>
+  <ion-navbar color="appprimary">                                <!-- serve per il navbar -->
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>     <!-- bottone menù in alto a dx -->
+    </button>
+    <ion-title>Inserisci Lezione</ion-title>
   </ion-navbar>
 </ion-header>
 
@@ -19,29 +19,46 @@
   <div class="InserisciLezione-box">
     <form>
       <ion-row>
-        <ion-col>
+        <div col-6 class="margine-descrzione">
           <ion-list inset>
 
-  <ion-item>
-    <ion-input type="text" placeholder="Nome Lezione" name="NomeLezione" required></ion-input>
-  </ion-item>
-  <ion-item>
-    <ion-input type="text" placeholder="Macro Materia" name="MacroMateria" required></ion-input>
-  </ion-item><ion-item>
-    <ion-input type="text" placeholder="Micro Materia" name="MicroMateria" required></ion-input>
-  </ion-item><ion-item>
-    <ion-input type="text" placeholder="Livello Insegnamento" name="LivelloInsegnamento" required></ion-input>
-  </ion-item><ion-item>
-    <ion-input type="text" placeholder="Prezzo Orario" name="PrezzoOrario" required></ion-input>
-  </ion-item><ion-item>
-    <ion-input type="text" placeholder="Imposta Data e Slot" name="ImpostaDataeSlot" (click)="ImpostaDataeSlot()" required></ion-input>
-  </ion-item><ion-item>
-    <ion-input type="text" placeholder="Descrizione" name="Descrizione" required></ion-input>
-  </ion-item>
+            <ion-item>
+              <ion-input type="text" placeholder="Nome Lezione" name="NomeLezione" required></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-input type="text" placeholder="Macro Materia" name="MacroMateria" required></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-input type="text" placeholder="Micro Materia" name="MicroMateria" required></ion-input>
+            </ion-item>
+          </ion-list>
+        </div>
+        <div col-6 class="margine-descrzione">
+          <ion-list inset>
+            <ion-item>
+              <ion-input type="text" placeholder="Livello Insegnamento" name="LivelloInsegnamento" required></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-input type="text" placeholder="Prezzo Orario" name="PrezzoOrario" required></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-input type="text" placeholder="Imposta Data e Slot" name="ImpostaDataeSlot"
+                         (click)="ImpostaDataeSlot()" required></ion-input>
+            </ion-item>
+
 
           </ion-list>
+        </div>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-input type="text" placeholder="Descrizione" name="Descrizione" required></ion-input>
+          </ion-item>
         </ion-col>
       </ion-row>
+
 
       <ion-row>
         <ion-col class="signup-col">
