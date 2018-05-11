@@ -9,10 +9,12 @@ import { ListPage } from '../pages/list/list';
 import { HomeStudentePage } from '../pages/home-studente/home-studente';
 import { LoginPage } from '../pages/login/login';
 import { RegistratiPage } from "../pages/registrati/registrati";
+import {RegistrazioneDocenteModalPage} from "../pages/registrazione-docente-modal/registrazione-docente-modal";
+import {InserisciLezionePage} from "../pages/inserisci-lezione/inserisci-lezione";
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import {RegistrazioneDocenteModalPage} from "../pages/registrazione-docente-modal/registrazione-docente-modal";
+
 
 
 @NgModule({
@@ -24,7 +26,8 @@ import {RegistrazioneDocenteModalPage} from "../pages/registrazione-docente-moda
     HomeStudentePage,
     LoginPage,
     RegistratiPage,
-    RegistrazioneDocenteModalPage
+    RegistrazioneDocenteModalPage,
+    InserisciLezionePage
   ],
   imports: [
     BrowserModule,
@@ -39,7 +42,8 @@ import {RegistrazioneDocenteModalPage} from "../pages/registrazione-docente-moda
     HomeStudentePage,
     LoginPage,
     RegistratiPage,
-    RegistrazioneDocenteModalPage
+    RegistrazioneDocenteModalPage,
+    InserisciLezionePage
   ],
   providers: [
     StatusBar,

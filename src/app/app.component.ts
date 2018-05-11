@@ -7,6 +7,7 @@ import { ListPage } from '../pages/list/list';
 import { HomeStudentePage } from '../pages/home-studente/home-studente';
 import { LoginPage } from "../pages/login/login";
 import { RegistratiPage } from "../pages/registrati/registrati";
+import {InserisciLezionePage} from "../pages/inserisci-lezione/inserisci-lezione";
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -39,7 +40,8 @@ export class MyApp {
       { title: 'My First List', component: ListPage },
       { title: 'Home Studente', component: HomeStudentePage },
       { title: 'Login', component: LoginPage },
-      { title: 'Registrati', component: RegistratiPage}
+      { title: 'Registrati', component: RegistratiPage},
+      { title: 'Inserisci Lezione', component: InserisciLezionePage}
     ];
   }
 
