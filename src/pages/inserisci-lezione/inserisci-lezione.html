@@ -1,0 +1,54 @@
+<!--
+  Generated template for the InserisciLezionePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>                                <!-- serve per il navbar -->
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>     <!-- bottone menù in alto a dx -->
+      </button>
+    <ion-title>InserisciLezione</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content class="InserisciLezione-content" padding text-center>  <!--  distanza dal border -->
+  <div class="InserisciLezione-box">
+    <form>
+      <ion-row>
+        <ion-col>
+          <ion-list inset>
+
+  <ion-item>
+    <ion-input type="text" placeholder="Nome Lezione" name="NomeLezione" required></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input type="text" placeholder="Macro Materia" name="MacroMateria" required></ion-input>
+  </ion-item><ion-item>
+    <ion-input type="text" placeholder="Micro Materia" name="MicroMateria" required></ion-input>
+  </ion-item><ion-item>
+    <ion-input type="text" placeholder="Livello Insegnamento" name="LivelloInsegnamento" required></ion-input>
+  </ion-item><ion-item>
+    <ion-input type="text" placeholder="Prezzo Orario" name="PrezzoOrario" required></ion-input>
+  </ion-item><ion-item>
+    <ion-input type="text" placeholder="Imposta Data e Slot" name="ImpostaDataeSlot" (click)="ImpostaDataeSlot()" required></ion-input>
+  </ion-item><ion-item>
+    <ion-input type="text" placeholder="Descrizione" name="Descrizione" required></ion-input>
+  </ion-item>
+
+          </ion-list>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col class="signup-col">
+          <button ion-button class="Inserisci-btn" block clear (click)="Inserisci()">Inserisci</button>
+        </ion-col>
+      </ion-row>
+    </form>
+  </div>
+
+</ion-content>
