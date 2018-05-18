@@ -19,14 +19,14 @@ export class RegistrazioneDocenteModalPage {
 
   closeModal(){
    const data = {
-     name : 'mario',
+     nome : 'mario',
      cognome : 'rossi'
     };
     this.view.dismiss(data);
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad RegistrazioneDocenteModalPage');
+    //console.log('ionViewDidLoad RegistrazioneDocenteModalPage ciao kevin');
   }
 
 }

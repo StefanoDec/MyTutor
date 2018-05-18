@@ -8,9 +8,11 @@ import { HomeStudentePage } from '../pages/home-studente/home-studente';
 import { LoginPage } from "../pages/login/login";
 import { RegistratiPage } from "../pages/registrati/registrati";
 import {InserisciLezionePage} from "../pages/inserisci-lezione/inserisci-lezione";
+import {LezionePage} from "../pages/lezione/lezione";
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+
 
 
 
@@ -41,7 +43,8 @@ export class MyApp {
       { title: 'Home Studente', component: HomeStudentePage },
       { title: 'Login', component: LoginPage },
       { title: 'Registrati', component: RegistratiPage},
-      { title: 'Inserisci Lezione', component: InserisciLezionePage}
+      { title: 'Inserisci Lezione', component: InserisciLezionePage},
+      { title: 'Lezione', component: LezionePage}
     ];
   }
 

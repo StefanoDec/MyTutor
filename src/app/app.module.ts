@@ -12,9 +12,13 @@ import { RegistratiPage } from "../pages/registrati/registrati";
 import {RegistrazioneDocenteModalPage} from "../pages/registrazione-docente-modal/registrazione-docente-modal";
 import {InserisciLezionePage} from "../pages/inserisci-lezione/inserisci-lezione";
 import {ImpostaDataeSlotModalPage} from "../pages/imposta-datae-slot-modal/imposta-datae-slot-modal";
+import {LezionePage} from "../pages/lezione/lezione";
+
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { GoogleMaps } from "@ionic-native/google-maps";
+
 
 
 
@@ -30,7 +34,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     RegistratiPage,
     RegistrazioneDocenteModalPage,
     InserisciLezionePage,
-    ImpostaDataeSlotModalPage
+    ImpostaDataeSlotModalPage,
+    LezionePage
   ],
   imports: [
     BrowserModule,
@@ -47,12 +52,15 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     RegistratiPage,
     RegistrazioneDocenteModalPage,
     InserisciLezionePage,
-    ImpostaDataeSlotModalPage
+    ImpostaDataeSlotModalPage,
+    LezionePage
   ],
   providers: [
     StatusBar,
     SplashScreen,
+    GoogleMaps,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
+
   ]
 })
 export class AppModule {}
